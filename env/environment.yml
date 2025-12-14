@@ -1,0 +1,20 @@
+name: seizure-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - mne
+  - pyedflib
+  - matplotlib
+  - seaborn
+  - tqdm
+  - pip
